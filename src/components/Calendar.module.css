@@ -1,0 +1,85 @@
+.week-day {
+  color: white;
+  background: blue;
+  padding: 0.5rem 1rem;
+}
+
+.day-row {
+  background: blue;
+}
+
+.calendar {
+  border-spacing: 0;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  width: 100%;
+}
+
+.today {
+  border: 1px solid blue;
+  border-radius: 50%;
+  color: blue;
+  font-weight: bold;
+}
+
+.calendar-day {
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.calendar-day:hover {
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 50%;
+  color: red;
+}
+
+.calendar-header {
+  padding: 0.5rem 0rem;
+  background-color: blue;
+  width: 100%;
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendar-header:hover {
+  cursor: pointer;
+}
+
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.calendar-date {
+  width: 100%;
+}
+.calendar-months {
+  width: 100%;
+  text-align: center;
+}
+.calendar-months td {
+  padding: 0.5rem 0;
+}
+
+.calendar-month {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.calendar-month:hover {
+  cursor: pointer;
+  outline: 1px solid gray;
+}
+p {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+/* font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Montserrat', sans-serif;
+ */
